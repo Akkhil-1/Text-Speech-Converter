@@ -3,6 +3,13 @@
     margin: 0;
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    width: 28rem;
 }
 .main
 {
@@ -16,7 +23,7 @@
     color: #fff;
 }
 .main h1{
-    font-size: 45px;
+    font-size: 2rem;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
